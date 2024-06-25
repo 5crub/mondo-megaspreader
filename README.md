@@ -47,7 +47,7 @@ If you...
 ![Generating Page](https://github.com/5crub/mondo-megaspreader/blob/main/README_ASSETS/generating.png)
 ![Presentation Page](https://github.com/5crub/mondo-megaspreader/blob/main/README_ASSETS/presenting.png)
 
-![Example Output](https://github.com/5crub/mondo-megaspreader/blob/main/README_ASSETS/output.mp4)
+<div><video src="https://github.com/5crub/mondo-megaspreader/blob/main/README_ASSETS/output.mp4" controls></video></div>
 
 ## Supporting Development
 
