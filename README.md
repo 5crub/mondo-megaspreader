@@ -6,9 +6,13 @@ Just a fun side project for visualizing the Mondos in your wallet. I hope everyo
 
 Although it's really impressive that this thing currently runs clientside in the browser, that unfortunately means that its performance depends heavily on the power of your own hardware.  So just don't be poor I guess.  Optimization passes, GPU support, and multithreading are all hopefully coming at some point down the line if I get bored enough / have spare time.
 
+
+
 ## Project Status
 
 [![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg)](https://github.com/emersion/stability-badges#experimental)
+
+
 
 ## Libraries and Credits
 
@@ -22,6 +26,8 @@ All of the card art is property of **Homosexual Male CoupleKissing and Touching 
 
 Additional thanks to [Mondo_Suisse](https://x.com/mondo_suisse) for the gigantic pile of Mondos I used in the Gallery demo screenshots.
 
+
+
 ## Running Locally
 
 To run this project locally:
@@ -32,6 +38,8 @@ To run this project locally:
 4. Run `npm run dev` to start the server
 5. Open [http://localhost:3000](http://localhost:3000) in your browser to load the page
 
+
+
 ## Bug Reports / Making Contributions / General Questions
 
 If you...
@@ -41,13 +49,17 @@ If you...
 
 ...please [submit a bug report / feature request](https://github.com/5crub/mondo-megaspreader/issues) or contact me (Scrub) in [the Mondo Discord](https://discord.gg/mondo).
 
+
+
 ## Gallery
 ![Landing Page](https://github.com/5crub/mondo-megaspreader/blob/main/README_ASSETS/landing.png)
 ![Configuration Page](https://github.com/5crub/mondo-megaspreader/blob/main/README_ASSETS/configuring.png)
 ![Generating Page](https://github.com/5crub/mondo-megaspreader/blob/main/README_ASSETS/generating.png)
 ![Presentation Page](https://github.com/5crub/mondo-megaspreader/blob/main/README_ASSETS/presenting.png)
 
-![Output Video](https://github.com/5crub/mondo-megaspreader/raw/main/README_ASSETS/output.mp4)
+https://github.com/5crub/mondo-megaspreader/assets/123231312/09b364bf-13a4-449b-b24b-130f0b322873
+
+
 
 ## Supporting Development
 
