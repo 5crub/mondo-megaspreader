@@ -1,0 +1,431 @@
+.pageContainer {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    height: 100vh;
+    background-color: #131;
+}
+@keyframes pulse-green {
+    0%   { color: #20ff20; }
+    50%  { color: #ffffff; }
+    100% { color: #20ff20; }
+}
+.pulsingGreenText {
+    animation: pulse-green 0.5s infinite;
+}
+/* @keyframes alt-pulse {
+    0%   { color: #000; }
+    50%  { color: #20ff20; }
+    100% { color: #000; }
+}
+@keyframes r6-pulse {
+    0%   { color: #000; }
+    50%  { color: #eeee20; }
+    100% { color: #000; }
+}
+@keyframes r5-pulse {
+    0%   { color: #000; }
+    50%  { color: #40bbff; }
+    100% { color: #000; }
+}
+@keyframes r4-pulse {
+    0%   { color: #000; }
+    50%  { color: #2020cc; }
+    100% { color: #000; }
+}
+@keyframes r3-pulse {
+    0%   { color: #000; }
+    50%  { color: #8820cc; }
+    100% { color: #000; }
+}
+@keyframes r2-pulse {
+    0%   { color: #000; }
+    50%  { color: #ee40ee; }
+    100% { color: #000; }
+}
+@keyframes r1-pulse {
+    0%   { color: #000; }
+    50%  { color: #ee2020; }
+    100% { color: #000; }
+}
+.pulseAlt {
+    animation: alt-pulse 0.4s infinite;
+}
+.pulseR6 {
+    animation: r6-pulse 0.8s infinite;
+}
+.pulseR5 {
+    animation: r5-pulse 1.6s infinite;
+}
+.pulseR4 {
+    animation: r4-pulse 2.0s infinite;
+}
+.pulseR3 {
+    animation: r3-pulse 4.0s infinite;
+}
+.pulseR2 {
+    animation: r2-pulse 4.8s infinite;
+}
+.pulseR1 {
+    animation: r1-pulse 6.0s infinite;
+} */
+
+
+
+/* START SCREEN ============================================================ */
+.startContainer {
+    display: block;
+    margin: 0 auto;
+    padding-top: 32px;
+}
+.startDescription {
+    display: block;
+    margin: 0 auto;
+    margin-top: 8px;
+    color: #fff;
+    text-align: center;
+}
+
+.startInputContainer {
+    margin-top: 8px;
+    padding: 8px;
+    overflow: hidden;
+}
+.startInputContainer input {
+    float: left;
+    background-color: #575;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 10%;
+    width: 64%;
+    color: #000;
+    border-radius: 4px;
+    border: 1px solid #000;
+    text-align: center;
+}
+.startInputContainer button {
+    float: right;
+    background-color: #797;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-right: 10%;
+    width: 15%;
+    color: #000;
+    border-radius: 4px;
+    border: 1px solid #000;
+}
+.startContainer button:hover {
+    background-color: #dfd;
+}
+
+.startLoadingZone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 64px;
+    overflow: hidden;
+}
+.startLoadingPair {
+    position: relative;
+    margin-right: 24px;
+}
+.startLoadingIcon {
+    width: 64px;
+    height: auto;
+    object-fit: cover;
+}
+.startLoadingGif {
+    width: 64px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    mix-blend-mode: lighten;
+}
+
+.startErrorText {
+    display: block;
+    margin: 0 auto;
+    margin-top: 16px;
+    color: #f00;
+    text-align: center;
+}
+
+.startAttribution {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.startAttribution p {
+    display: block;
+    margin: 0 auto;
+    margin-top: 8px;
+    color: #bbb;
+    text-align: center;
+}
+.startAttribution a {
+    color: #2f2;
+}
+.startSocialsZone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    width: 100%;
+    height: 32px;
+    overflow: hidden;
+}
+.startSocialsZone img {
+    width: 32px;
+    height: auto;
+    margin-right: 16px;
+    margin-top: 0px;
+}
+/* ======================================================== END START SCREEN */
+
+
+
+/* CONFIG SCREEN =========================================================== */
+.leftColumn {
+    width: 700px;
+    overflow-y: auto;
+}
+.rightColumn {
+    flex: 1;
+    display: flex;
+    max-width: 500px;
+    flex-direction: column;
+}
+
+.configTableContainer {
+    background-color: #575;
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid #000;
+    overflow-y: scroll;
+    height: calc(100vh - 4px);
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.longCell {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #000;
+    border-top: 1px solid #353;
+    border-bottom: 1px solid #353;
+    overflow: hidden;
+}
+.squareCell {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    max-width: 48px;
+    max-height: 48px;
+    border-top: 1px solid #353;
+    border-bottom: 1px solid #353;
+    overflow: hidden;
+}
+.table td p {
+    padding-left: 8px;
+    padding-right: 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.table td img {
+    width: 32px;
+    height: auto;
+    object-fit: contain;
+    padding: 0;
+    border: none;
+}
+.table td button {
+    background-color: #8a8;
+    width: 28px;
+    height: 28px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 4px;
+    border: none;
+}
+.configHighlightedRow {
+    background-color: #686;
+}
+.table td button:hover {
+    background-color: #dfd;
+}
+
+.configPreviewContainer {
+    margin: 2px;
+    padding: 8px;
+}
+/* .outputVideoWrapper {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 400px;
+    height: 300px;
+    object-fit: contain;
+    border: 1px solid #000;
+    overflow: hidden;
+} */
+.configPreviewImageWrapper {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 400px;
+    height: 300px;
+    object-fit: contain;
+    border: 1px solid #000;
+    overflow: hidden;
+}
+.configPreviewImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.configPreviewCard {
+    position: absolute;
+    width: 37px;
+    height: 62.5px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.configPreviewFavoriteCard {
+    position: absolute;
+    width: 74px;
+    height: 125px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.configPreviewTransparent {
+  opacity: 0.65;
+}
+.configHighlightedCard {
+    filter: hue-rotate(120deg);
+}
+
+.configOptionsContainer {
+    background-color: #575;
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid #000;
+    flex-grow: 1;
+}
+.configOptionsContainer p {
+    overflow: hidden;
+}
+.configOptionsContainer button {
+    background-color: #797;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: block;
+    margin: 0 auto;
+    color: #000;
+    border-radius: 4px;
+    border: 1px solid #000;
+}
+.configOptionsContainer button:hover {
+    background-color: #dfd;
+}
+
+.configSubmitContainer {
+    margin: 2px;
+    padding: 2px;
+    margin-top: 2px;
+}
+.configSubmitContainer button {
+    background-color: #797;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: block;
+    margin: 0 auto;
+    color: #000;
+    border-radius: 4px;
+    border: 1px solid #000;
+}
+.configSubmitContainer button:hover {
+    background-color: #dfd;
+}
+/* ======================================================= END CONFIG SCREEN */
+
+/* GENERATING SCREEN ======================================================= */
+.generatingTableContainer {
+    background-color: #575;
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid #000;
+    overflow-y: scroll;
+    height: calc(100vh - 4px);
+}
+.generatingUnfinishedRow {
+    background-color: #686;
+}
+.infoCell {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    max-width: 192px;
+    max-height: 48px;
+    border-top: 1px solid #353;
+    border-bottom: 1px solid #353;
+    overflow: hidden;
+}
+.loadingIconCell {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    max-width: 48px;
+    max-height: 48px;
+    border-top: 1px solid #353;
+    border-bottom: 1px solid #353;
+    overflow: hidden;
+}
+.loadingIconCellPair {
+    position: relative;
+    margin-right: 24px;
+}
+.loadingIconCell img {
+    width: 32px;
+    height: auto;
+    object-fit: cover;
+}
+.generatingWorking {
+    filter: grayscale(50%);
+}
+.generatingUnfinished {
+    filter: grayscale(100%);
+}
+/* =================================================== END GENERATING SCREEN */
+
+/* OUTPUT SCREEN =========================================================== */
+.outputVideoWrapper {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 800px;
+    height: 600px;
+    object-fit: contain;
+    border: 1px solid #000;
+    overflow: hidden;
+}
+/* ======================================================= END OUTPUT SCREEN */
